@@ -1,18 +1,4 @@
-```
-┌─────────────────────────────────────────────┐
-│  PAOLO SANDEJAS                               │
-│  AI/ML ENGINEER · CREATIVE TECHNOLOGIST       │
-│  Glendale, CA              code ∩ creativity  │
-└─────────────────────────────────────────────┘
-
-// building tools at the intersection of code
-// and creativity — with a musician's instinct
-// for what makes a tool worth using.
-// 2+ yrs shipping production AI.
-
-  ░░ NOW ░░  Software Engineer @ Nuts & Bolts AI
-  ░░ MFA ░░  Music Technology · CalArts · 4.0
-```
+![Paolo Sandejas — AI/ML Engineer · Creative Technologist](./assets/banner.svg)
 
 ### ◆ FEATURED
 
@@ -22,41 +8,56 @@
 | **[ASCII Drone Synth](https://paolosand.github.io/ascii_drone/)** | `MediaPipe` `Tone.js` `Three.js` `GLSL` | Gesture-controlled web synth — hand tracking at 30fps drives 4-voice synthesis; WebGL ASCII rendering via GPU-instanced shaders. |
 | **[HAI · Head as Interface](https://www.youtube.com/watch?v=rxaJTSi7KDY)** | `Arduino` `Max/MSP` | Wearable instrument — dual ultrasonic sensors map head gestures to filter cutoff, pitch & playback speed via FM synthesis. |
 
-`+ more` — multi-modal video pipelines, production AI tooling, and AI×music installations →
-**[full portfolio](https://paolosandejas-portfolio.vercel.app/)**
+`+ more` — multi-modal video pipelines, production AI tooling, and AI×music installations → **[full portfolio](https://paolosandejas-portfolio.vercel.app/)**
 
 ### ◆ STACK
 
-```
-LANGUAGES     Python · TypeScript · JavaScript · Java · SQL · C++
-AI / ML       PyTorch · scikit-learn · Computer Vision · Audio ML
-              LangChain · CrewAI · RAG · ReAct Agents · MediaPipe
-APIS          Gemini · OpenAI · Claude · Claude Code · Figma MCP
-FULL-STACK    Next.js · Node.js · FastAPI · Supabase · Postgres · Vercel
-INFRA         SageMaker · Hugging Face · Docker · Jupyter
-CREATIVE      ChucK · Max/MSP · Ableton · TouchDesigner · Arduino
-              Tone.js · Three.js · p5.js · librosa · OSC
-```
+**Languages**
+![Python](https://img.shields.io/badge/Python-1A130A?style=flat-square&logo=python&logoColor=F2EBDA)
+![TypeScript](https://img.shields.io/badge/TypeScript-1A130A?style=flat-square&logo=typescript&logoColor=F2EBDA)
+![JavaScript](https://img.shields.io/badge/JavaScript-1A130A?style=flat-square&logo=javascript&logoColor=F2EBDA)
+![Java](https://img.shields.io/badge/Java-1A130A?style=flat-square&logo=openjdk&logoColor=F2EBDA)
+![C++](https://img.shields.io/badge/C%2B%2B-1A130A?style=flat-square&logo=cplusplus&logoColor=F2EBDA)
+
+**AI / ML**
+![PyTorch](https://img.shields.io/badge/PyTorch-2841E8?style=flat-square&logo=pytorch&logoColor=F2EBDA)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-2841E8?style=flat-square&logo=scikitlearn&logoColor=F2EBDA)
+![LangChain](https://img.shields.io/badge/LangChain-2841E8?style=flat-square&logo=langchain&logoColor=F2EBDA)
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-2841E8?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/MediaPipe-2841E8?style=flat-square)
+![CrewAI](https://img.shields.io/badge/CrewAI-2841E8?style=flat-square)
+
+**APIs & Agents**
+![Gemini](https://img.shields.io/badge/Gemini-E8B91A?style=flat-square&logo=googlegemini&logoColor=1A130A)
+![OpenAI](https://img.shields.io/badge/OpenAI-E8B91A?style=flat-square&logo=openai&logoColor=1A130A)
+![Claude](https://img.shields.io/badge/Claude-E8B91A?style=flat-square&logo=anthropic&logoColor=1A130A)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-E8B91A?style=flat-square&logo=anthropic&logoColor=1A130A)
+
+**Full-Stack**
+![Next.js](https://img.shields.io/badge/Next.js-00A076?style=flat-square&logo=nextdotjs&logoColor=F2EBDA)
+![Node.js](https://img.shields.io/badge/Node.js-00A076?style=flat-square&logo=nodedotjs&logoColor=F2EBDA)
+![FastAPI](https://img.shields.io/badge/FastAPI-00A076?style=flat-square&logo=fastapi&logoColor=F2EBDA)
+![Supabase](https://img.shields.io/badge/Supabase-00A076?style=flat-square&logo=supabase&logoColor=F2EBDA)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-00A076?style=flat-square&logo=postgresql&logoColor=F2EBDA)
+![Vercel](https://img.shields.io/badge/Vercel-00A076?style=flat-square&logo=vercel&logoColor=F2EBDA)
+
+**Creative Tech**
+![ChucK](https://img.shields.io/badge/ChucK-F0457B?style=flat-square)
+![Max/MSP](https://img.shields.io/badge/Max%2FMSP-F0457B?style=flat-square)
+![Ableton](https://img.shields.io/badge/Ableton-F0457B?style=flat-square&logo=abletonlive&logoColor=F2EBDA)
+![TouchDesigner](https://img.shields.io/badge/TouchDesigner-F0457B?style=flat-square&logo=touchdesigner&logoColor=F2EBDA)
+![Arduino](https://img.shields.io/badge/Arduino-F0457B?style=flat-square&logo=arduino&logoColor=F2EBDA)
+![Three.js](https://img.shields.io/badge/Three.js-F0457B?style=flat-square&logo=threedotjs&logoColor=F2EBDA)
+![p5.js](https://img.shields.io/badge/p5.js-F0457B?style=flat-square&logo=p5dotjs&logoColor=F2EBDA)
 
 ### ◆ SIGNALS
 
-<p>
-  <img height="165" alt="Paolo's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=paolosand&show_icons=true&count_private=true&hide=stars&bg_color=F2EBDA&title_color=2841E8&text_color=3E3424&icon_color=F0457B&border_color=1A130A&border_radius=0" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=paolosand&layout=compact&langs_count=8&bg_color=F2EBDA&title_color=2841E8&text_color=3E3424&border_color=1A130A&border_radius=0" />
-</p>
-
-<p>
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=paolosand&background=F2EBDA&border=1A130A&stroke=1A130A&ring=F0457B&fire=F0457B&currStreakNum=1A130A&currStreakLabel=2841E8&sideNums=1A130A&sideLabels=3E3424&dates=7A6C53&border_radius=0" />
-</p>
+![GitHub signals for paolosand](./assets/signals.svg)
 
 ![Profile views](https://komarev.com/ghpvc/?username=paolosand&label=PROFILE%20VIEWS&color=2841E8&style=flat-square)
 
 ### ◆ ELSEWHERE
 
-```
-PORTFOLIO   paolosandejas-portfolio.vercel.app
-LINKEDIN    linkedin.com/in/paolosand
-EMAIL       pjsandejas@gmail.com
-```
-
-<sub>+ ————————————————————————————————————————————— +</sub>
+[![Portfolio](https://img.shields.io/badge/Portfolio-1A130A?style=flat-square&logo=vercel&logoColor=F2EBDA)](https://paolosandejas-portfolio.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2841E8?style=flat-square&logo=linkedin&logoColor=F2EBDA)](https://www.linkedin.com/in/paolosand)
+[![Email](https://img.shields.io/badge/Email-F0457B?style=flat-square&logo=gmail&logoColor=F2EBDA)](mailto:pjsandejas@gmail.com)

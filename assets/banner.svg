@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="960" height="300" role="img" aria-label="Paolo Sandejas — AI/ML Engineer and Creative Technologist">
+  <defs>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.7 0.7 0.7 0 -0.55"/>
+    </filter>
+    <pattern id="stripes" width="10" height="10" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#F2EBDA"/>
+      <rect width="3" height="10" fill="#DDD2B5"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace; }
+      .serif { font-family: 'Newsreader',Georgia,'Times New Roman',serif; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- paper -->
+  <rect width="960" height="300" fill="#F2EBDA"/>
+
+  <!-- registration marks -->
+  <g stroke="#2841E8" stroke-width="2" fill="none">
+    <path d="M10 22 h14 M17 15 v14"/>
+    <path d="M950 22 h-14 M943 15 v14"/>
+    <path d="M10 278 h14 M17 271 v14"/>
+    <path d="M950 278 h-14 M943 271 v14"/>
+  </g>
+  <text x="30" y="27" class="mono" font-size="9" letter-spacing="2" fill="#B6A988">REG · 001</text>
+  <text x="930" y="291" class="mono" font-size="9" letter-spacing="2" fill="#B6A988" text-anchor="end">RISO / MONO</text>
+
+  <!-- offset shadow + card -->
+  <rect x="40" y="42" width="882" height="212" fill="#1A130A"/>
+  <rect x="32" y="34" width="882" height="212" fill="#F2EBDA" stroke="#1A130A" stroke-width="2"/>
+
+  <!-- striped texture panel, right edge of card -->
+  <rect x="726" y="36" width="186" height="208" fill="url(#stripes)" opacity="0.9"/>
+  <line x1="726" y1="36" x2="726" y2="244" stroke="#1A130A" stroke-width="2"/>
+
+  <!-- rotated stamp on the striped panel -->
+  <g transform="rotate(-5 819 140)">
+    <rect x="738" y="108" width="162" height="64" fill="#F2EBDA" stroke="#F0457B" stroke-width="2.5"/>
+    <rect x="744" y="114" width="150" height="52" fill="none" stroke="#F0457B" stroke-width="0.8" stroke-dasharray="3 3"/>
+    <text x="819" y="132" class="mono" font-size="9" letter-spacing="2" fill="#F0457B" text-anchor="middle">· NUTS &amp; BOLTS AI ·</text>
+    <text x="819" y="150" class="mono" font-size="13" font-weight="800" letter-spacing="1" fill="#F0457B" text-anchor="middle">SHIPPING AI</text>
+  </g>
+
+  <!-- title block -->
+  <text x="66" y="112" class="mono" font-size="58" font-weight="800" letter-spacing="-3" fill="#1A130A">PAOLO SANDEJAS</text>
+  <text x="68" y="140" class="mono" font-size="14.5" font-weight="600" letter-spacing="4" fill="#3E3424">AI / ML ENGINEER  ·  CREATIVE TECHNOLOGIST</text>
+
+  <line x1="68" y1="158" x2="700" y2="158" stroke="#B6A988" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- tagline + blinking cursor -->
+  <text x="68" y="192" class="serif" font-size="21" fill="#3E3424">a musician's instinct for tools worth using</text>
+  <text x="68" y="222" class="mono" font-size="14" fill="#7A6C53">&gt; code + creativity</text>
+  <rect x="250" y="210" width="11" height="16" fill="#2841E8">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.05s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- four-ink palette strip -->
+  <g stroke="#1A130A" stroke-width="1.2">
+    <rect x="602" y="206" width="16" height="16" fill="#2841E8"/>
+    <rect x="624" y="206" width="16" height="16" fill="#F0457B"/>
+    <rect x="646" y="206" width="16" height="16" fill="#00A076"/>
+    <rect x="668" y="206" width="16" height="16" fill="#E8B91A"/>
+  </g>
+  <text x="602" y="200" class="mono" font-size="8.5" letter-spacing="2" fill="#7A6C53">FOUR-INK SYSTEM</text>
+
+  <!-- grain overlay -->
+  <rect width="960" height="300" filter="url(#grain)" opacity="0.5"/>
+</svg>

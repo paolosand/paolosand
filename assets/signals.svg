@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" width="960" height="280" role="img" aria-label="GitHub signals for paolosand">
+  <defs>
+    <filter id="grain2" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="n"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.7 0.7 0.7 0 -0.55"/>
+    </filter>
+    <style>
+      .mono { font-family: 'JetBrains Mono','SFMono-Regular',ui-monospace,Menlo,Consolas,monospace; }
+    </style>
+  </defs>
+
+  <rect width="960" height="280" fill="#F2EBDA"/>
+
+  <!-- offset shadow + card -->
+  <rect x="40" y="30" width="882" height="222" fill="#1A130A"/>
+  <rect x="32" y="22" width="882" height="222" fill="#F2EBDA" stroke="#1A130A" stroke-width="2"/>
+
+  <!-- header bar -->
+  <rect x="32" y="22" width="882" height="34" fill="#1A130A"/>
+  <text x="48" y="44" class="mono" font-size="12" font-weight="700" letter-spacing="3" fill="#F2EBDA">◆ SIGNALS</text>
+  <text x="470" y="44" class="mono" font-size="10" letter-spacing="2" fill="#E8B91A">@paolosand</text>
+  <text x="898" y="44" class="mono" font-size="9.5" letter-spacing="2" fill="#B6A988" text-anchor="end">LAST 12 MONTHS</text>
+
+  <!-- vertical divider -->
+  <line x1="452" y1="56" x2="452" y2="244" stroke="#1A130A" stroke-width="1" stroke-dasharray="2 4"/>
+
+  <!-- LEFT: contributions -->
+  <text x="60" y="118" class="mono" font-size="62" font-weight="800" letter-spacing="-2" fill="#1A130A">3,056</text>
+  <rect x="62" y="130" width="30" height="6" fill="#F0457B"/>
+  <text x="102" y="136" class="mono" font-size="12" font-weight="700" letter-spacing="3" fill="#3E3424">CONTRIBUTIONS</text>
+  <text x="60" y="162" class="mono" font-size="10.5" letter-spacing="1" fill="#7A6C53">2,561 private  ·  472 public commits</text>
+
+  <!-- mini stats -->
+  <g>
+    <text x="60" y="212" class="mono" font-size="26" font-weight="800" fill="#2841E8">14</text>
+    <text x="60" y="230" class="mono" font-size="9.5" letter-spacing="2" fill="#7A6C53">PUBLIC REPOS</text>
+    <text x="230" y="212" class="mono" font-size="26" font-weight="800" fill="#00A076">4.0</text>
+    <text x="230" y="230" class="mono" font-size="9.5" letter-spacing="2" fill="#7A6C53">MFA GPA · CALARTS</text>
+  </g>
+
+  <!-- RIGHT: languages -->
+  <text x="486" y="82" class="mono" font-size="11" font-weight="700" letter-spacing="3" fill="#3E3424">MOST USED</text>
+
+  <!-- rows: label(486..596) | track(600..884) | pct -->
+  <!-- Python 23.5 -> width scale *11 -->
+  <g class="mono" font-size="11" letter-spacing="1">
+    <text x="486" y="108" fill="#1A130A" font-weight="700">Python</text>
+    <rect x="600" y="98" width="230" height="13" fill="#DDD2B5"/>
+    <rect x="600" y="98" width="223" height="13" fill="#2841E8"/>
+    <text x="884" y="108" fill="#3E3424" text-anchor="end">23.5%</text>
+
+    <text x="486" y="140" fill="#1A130A" font-weight="700">Jupyter</text>
+    <rect x="600" y="130" width="230" height="13" fill="#DDD2B5"/>
+    <rect x="600" y="130" width="175" height="13" fill="#E8B91A"/>
+    <text x="884" y="140" fill="#3E3424" text-anchor="end">18.4%</text>
+
+    <text x="486" y="172" fill="#1A130A" font-weight="700">ChucK</text>
+    <rect x="600" y="162" width="230" height="13" fill="#DDD2B5"/>
+    <rect x="600" y="162" width="162" height="13" fill="#F0457B"/>
+    <text x="884" y="172" fill="#3E3424" text-anchor="end">17.0%</text>
+
+    <text x="486" y="204" fill="#1A130A" font-weight="700">JavaScript</text>
+    <rect x="600" y="194" width="230" height="13" fill="#DDD2B5"/>
+    <rect x="600" y="194" width="136" height="13" fill="#00A076"/>
+    <text x="884" y="204" fill="#3E3424" text-anchor="end">14.3%</text>
+
+    <text x="486" y="236" fill="#1A130A" font-weight="700">TypeScript</text>
+    <rect x="600" y="226" width="230" height="13" fill="#DDD2B5"/>
+    <rect x="600" y="226" width="90" height="13" fill="#3E3424"/>
+    <text x="884" y="236" fill="#3E3424" text-anchor="end">9.5%</text>
+  </g>
+
+  <!-- grain overlay -->
+  <rect width="960" height="280" filter="url(#grain2)" opacity="0.5"/>
+</svg>
