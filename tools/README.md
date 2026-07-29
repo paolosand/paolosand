@@ -10,17 +10,20 @@ used — `fonts/*.ttf` are ~8 KB each.
 
 ## signals — live, automated
 
-`gen_signals.py` pulls **public** GitHub activity via the GraphQL API and renders the
-52-week contribution grid, headline counts, and language mix.
+`gen_signals.py` pulls GitHub activity via the GraphQL API and renders the 52-week
+contribution grid, headline counts, and language mix.
 
 Runs daily via [`update-signals.yml`](../.github/workflows/update-signals.yml), which skips
 the commit when the rendered SVG is byte-identical. In practice it commits most days, since
-the 52-week window slides and the date stamp advances. Because it reads public data only,
-the default `GITHUB_TOKEN` is sufficient — no personal access token, no secret to rotate.
+the 52-week window slides and the date stamp advances. The default `GITHUB_TOKEN` is
+sufficient — no personal access token, no secret to rotate.
 
-> Private contributions are therefore **not** counted. To include them you'd need a classic
-> PAT with `read:user` exposed as a secret, and to swap `contributionsCollection` to query
-> `viewer` instead of `user(login:)`.
+> **On private work.** The token is unprivileged, so it sees exactly what any visitor sees.
+> That still includes private *contribution counts*, because this account has
+> **Settings → Profile → "Include private contributions on my profile"** enabled — the same
+> reason the graph on the profile page shows them. Turn that setting off and this card drops
+> to public-only automatically. Repo count and language mix are always public-only, since
+> they query `privacy: PUBLIC` directly.
 
 ```bash
 cd tools

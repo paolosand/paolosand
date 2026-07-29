@@ -1,7 +1,13 @@
-"""Generate the live SIGNALS card from public GitHub data.
+"""Generate the live SIGNALS card from the GitHub API.
 
-Runs in CI on a schedule. Uses only PUBLIC activity, so the default
-GITHUB_TOKEN is sufficient — no personal access token required.
+Runs in CI on a schedule with the default GITHUB_TOKEN — no personal
+access token required.
+
+The contribution total is whatever the profile exposes to an ordinary
+viewer, which matches the graph on github.com/<login>. Because this
+account enables "Include private contributions on my profile", that
+total counts private work too, even though the token is unprivileged.
+Repository and language figures are explicitly public-only.
 """
 import json
 import os
@@ -129,7 +135,7 @@ def build(s, dark=False):
     scale = heat_scale(dark)
     peak = max(1, s["best_day"])
 
-    draw(med(10, 0.2), "PUBLIC CONTRIBUTIONS · LAST 52 WEEKS", PAD, 68, muted)
+    draw(med(10, 0.2), "CONTRIBUTIONS · LAST 52 WEEKS", PAD, 68, muted)
 
     # month ticks
     seen = set()
