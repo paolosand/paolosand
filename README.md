@@ -1,14 +1,17 @@
-![Paolo Sandejas — AI/ML Engineer · Creative Technologist](./assets/banner.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.svg">
+  <img src="./assets/banner.svg" alt="Paolo Sandejas — AI/ML Engineer · Creative Technologist" width="100%">
+</picture>
 
 ### ◆ FEATURED
 
 | Project | Stack | What it is |
 |---|---|---|
 | **[CHULOOPA](https://github.com/paolosand/CHULOOPA)** | `ChucK` `PyTorch` `OSC` | Real-time AI drum looper — a 4.8M-param Transformer variation engine + personalized KNN beatbox classifier, MIDI → Ableton, live. *MFA thesis.* |
+| **[tabIt](https://github.com/paolosand/tabIt)** | `TypeScript` `React` `FastAPI` `MV3` | Turns any YouTube song into a synced, play-along chord sheet — GPU source separation and a chord model reconciled against an isolated bass stem to emit real slash chords. ~36s cold analysis. |
 | **[ASCII Drone Synth](https://paolosand.github.io/ascii_drone/)** | `MediaPipe` `Tone.js` `Three.js` `GLSL` | Gesture-controlled web synth — hand tracking at 30fps drives 4-voice synthesis; WebGL ASCII rendering via GPU-instanced shaders. |
-| **[HAI · Head as Interface](https://www.youtube.com/watch?v=rxaJTSi7KDY)** | `Arduino` `Max/MSP` | Wearable instrument — dual ultrasonic sensors map head gestures to filter cutoff, pitch & playback speed via FM synthesis. |
 
-`+ more` — multi-modal video pipelines, production AI tooling, and AI×music installations → **[full portfolio](https://paolosandejas-portfolio.vercel.app/)**
+`+ more` — [HAI · Head as Interface](https://www.youtube.com/watch?v=rxaJTSi7KDY) (wearable ultrasonic instrument), multi-modal video pipelines, production AI tooling, and AI×music installations → **[full portfolio](https://paolosandejas-portfolio.vercel.app/)**
 
 ### ◆ STACK
 
@@ -35,6 +38,7 @@
 
 **Full-Stack**
 ![Next.js](https://img.shields.io/badge/Next.js-00A076?style=flat-square&logo=nextdotjs&logoColor=F2EBDA)
+![React](https://img.shields.io/badge/React-00A076?style=flat-square&logo=react&logoColor=F2EBDA)
 ![Node.js](https://img.shields.io/badge/Node.js-00A076?style=flat-square&logo=nodedotjs&logoColor=F2EBDA)
 ![FastAPI](https://img.shields.io/badge/FastAPI-00A076?style=flat-square&logo=fastapi&logoColor=F2EBDA)
 ![Supabase](https://img.shields.io/badge/Supabase-00A076?style=flat-square&logo=supabase&logoColor=F2EBDA)
@@ -52,7 +56,12 @@
 
 ### ◆ SIGNALS
 
-![GitHub signals for paolosand](./assets/signals.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/signals-dark.svg">
+  <img src="./assets/signals.svg" alt="Live public GitHub signals for paolosand — 52-week contribution graph, repo count, active days and language mix" width="100%">
+</picture>
+
+<sub>Regenerated daily from the GitHub API by [`update-signals.yml`](./.github/workflows/update-signals.yml) — no hand-typed numbers.</sub>
 
 ![Profile views](https://komarev.com/ghpvc/?username=paolosand&label=PROFILE%20VIEWS&color=2841E8&style=flat-square)
 

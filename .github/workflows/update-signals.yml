@@ -1,0 +1,51 @@
+name: Update signals
+
+on:
+  schedule:
+    # 06:12 UTC daily — off the hour to avoid GitHub's peak cron contention
+    - cron: "12 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - ".github/workflows/update-signals.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-signals
+  cancel-in-progress: true
+
+jobs:
+  regenerate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install fontTools
+        run: pip install --quiet "fonttools>=4.50"
+
+      - name: Regenerate signals card
+        env:
+          # Default token is enough: the card only reads PUBLIC activity.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_LOGIN: paolosand
+        run: python tools/gen_signals.py assets
+
+      - name: Commit if changed
+        run: |
+          if [[ -z "$(git status --porcelain assets)" ]]; then
+            echo "No change in signals — nothing to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit -m "chore(signals): refresh live GitHub stats [skip ci]"
+          git push
